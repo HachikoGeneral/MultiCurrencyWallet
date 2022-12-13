@@ -41,4 +41,10 @@ export default {
     fullName: 'Wrapped Bitcoin',
     canSwap: true,
   },
+  swap: {
+    address: '0x6D2C1d49c17C3BeECc22033EC604425ff4F7f92c',
+    decimals: 18,
+    fullName: 'GOAT',
+    canSwap: true,
+  },
 }
