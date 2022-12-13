@@ -10,6 +10,7 @@ export const COIN_TYPE = Object.freeze({
   ONE_TOKEN: 'ONE_TOKEN',
   AME_TOKEN: 'AME_TOKEN',
   AURORA_TOKEN: 'AURORA_TOKEN',
+  GOAT_TOKEN: 'GOAT_TOKEN',
   PHI_TOKEN: 'PHI_TOKEN',
   PHI_V2_TOKEN: 'PHI_V2_TOKEN',
 })
@@ -25,6 +26,7 @@ export const TOKEN_STANDARD = Object.freeze({
   ERC20ONE: 'ERC20ONE',
   ERC20AME: 'ERC20AME',
   ERC20AURORA: 'ERC20AURORA',
+  ERC20GOAT: 'ERC20GOAT',
   PHI20: 'PHI20',
   PHI20_V2: 'PHI20_V2',
 })
@@ -44,6 +46,7 @@ export const BLOCKCHAIN = Object.freeze({
   ONE: 'ONE',
   AME: 'AME',
   AURETH: 'AURETH', // AURORA
+  GOAT: 'GOAT', // CHIKOCHAIN
   PHI: 'PHI',
   PHI_V2: 'PHI_V2',
 })
@@ -59,6 +62,7 @@ export const BASE_TOKEN_CURRENCY = Object.freeze({
   ONE: 'ONE',
   AME: 'AME',
   AURETH: 'AURETH',
+  GOAT: 'GOAT',
   PHI: 'PHI',
   PHI_V2: 'PHI_V2',
 })
@@ -165,6 +169,22 @@ export const COIN_DATA = {
     model: COIN_MODEL.AB,
     precision: 18,
   },
+  AME: {
+    ticker: 'AME',
+    name: 'AME',
+    type: COIN_TYPE.NATIVE,
+    blockchain: BLOCKCHAIN.AME,
+    model: COIN_MODEL.AB,
+    precision: 18,
+  },
+  GOAT: {
+    ticker: 'GOAT',
+    name: 'GOAT',
+    type: COIN_TYPE.NATIVE,
+    blockchain: BLOCKCHAIN.CHIKOCHAIN,
+    model: COIN_MODEL.AB,
+    precision: 18,
+  },
   PHI: {
     ticker: 'PHI',
     name: 'PHI',
@@ -262,6 +282,7 @@ export const NATIVE = {
   movr: 'MOVR',
   one: 'ONE',
   ame: 'AME',
+  goat: 'GOAT',
   phi: 'PHI',
   phi_v2: 'PHI_V2',
   ghost: 'GHOST',
