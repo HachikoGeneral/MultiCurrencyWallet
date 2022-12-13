@@ -206,6 +206,13 @@ const baseCurrencyConfig = {
     value: 'btc',
     fullTitle: 'bitcoin',
   },
+  GOAT: {
+    name: 'GOAT',
+    title: 'GOAT',
+    icon: 'goat',
+    value: 'goat',
+    fullTitle: 'goat token',
+  },
 }
 
 const initialState = {
