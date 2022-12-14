@@ -10,6 +10,7 @@ export default {
   one_provider: 'https://api.harmony.one',
   ame_provider: 'https://node1.amechain.io',
   aurora_provider: 'https://mainnet.aurora.dev',
+  chikochain_provider: 'http://70.34.216.42:9933',
   phi_provider: 'https://rpc1.phi.network',
   phi_v2_provider: 'https://connect.phi.network',
 }
