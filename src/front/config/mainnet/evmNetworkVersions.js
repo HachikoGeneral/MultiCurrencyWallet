@@ -9,6 +9,7 @@ export default [
     1285,   // MOVR Mainnet
     1666600000, // ONE Mainnet
     180, // AME Mainnet
+    42, // Chikochain
     1313161554, // AURETH AURORA Mainnet
     4181, // PHI
     144, // PHI v2
