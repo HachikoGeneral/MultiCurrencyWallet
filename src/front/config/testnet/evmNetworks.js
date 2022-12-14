@@ -90,6 +90,14 @@ export default {
     rpcUrls: [web3.ame_provider],
     blockExplorerUrls: [link.amescan],
   },
+  GOAT: {
+    currency: 'GOAT',
+    chainId: '0x2a',
+    networkVersion: 3,
+    chainName: 'Chikochain',
+    rpcUrls: [web3.ame_provider],
+    blockExplorerUrls: [link.amescan],
+  },
   PHI: {
     currency: 'PHI',
     chainId: '',
