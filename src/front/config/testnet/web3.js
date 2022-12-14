@@ -10,6 +10,7 @@ export default {
   one_provider: 'https://api.s0.b.hmny.io',
   ame_provider: 'https://testnet.amechain.io',
   aurora_provider: 'https://betanet.aurora.dev',
+  chikochain_provider: 'http://70.34.216.42:9933',
   phi_provider: '',
   phi_v2_provider: '',
 }
