@@ -9,5 +9,6 @@ export default [
     1287,  // MOVR Testnet
     1666700000, // ONE Testnet
     181, // AME testnet
+    42, // Chikochain
     1313161556, // AURETH Aurora Betanet
 ]
